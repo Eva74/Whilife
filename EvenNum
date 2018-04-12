@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class EvenNum {
+
+	public static void main(String[] args) {
+		
+		int max;
+		System.out.println("Please enter the maximum");
+		Scanner scan = new Scanner (System.in);
+		max = scan.nextInt();
+		
+		int x = 0;
+		while(x<=max) {
+			if(x%2 == 0)
+				System.out.println(x);
+			x++;
+		}
+		
+		scan.close();
+
+	}
+
+}
