@@ -3,6 +3,13 @@ public class sumAllEclipse {
 
 	public static void main(String[] args) {
 		
+		int x = 0;
+		int y = 0;
+		sumAllThese(x,y);
+	}
+	
+	static int sumAllThese(int a, int b){
+		
 		int max;
 		System.out.print("Please enter the max number: ");
 		Scanner scan = new Scanner (System.in);
@@ -19,6 +26,7 @@ public class sumAllEclipse {
 		
 
 		scan.close();
+		return sum;
 	}
 
 }
